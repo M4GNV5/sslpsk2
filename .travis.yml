@@ -23,4 +23,4 @@ matrix:
 script:
   - $PYTHON_BIN setup.py install
   - cd ..
-  - $PYTHON_BIN -m sslpsk.test
+  - $PYTHON_BIN -m sslpsk2.test
